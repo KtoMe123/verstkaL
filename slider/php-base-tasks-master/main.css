@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 16px/20px Helvetica, Arial, sans-serif;
+}
+
+.detail {
+    padding: 60px 40px;
+}
+
+.detail__name {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.detail__description {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.detail-features {
+    margin-top: 40px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features-item {
+    padding: 20px 30px;
+    width: 33.3333%;
+}
+
+.features-item__title {
+    font-weight: 700;
+}
+
+.features-item__description {
+    margin-top: 10px;
+}
+
